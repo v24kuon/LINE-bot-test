@@ -7,13 +7,18 @@
     "dev": "wrangler dev",
     "start": "wrangler dev",
     "test": "vitest",
-    "cf-typegen": "wrangler types"
+    "cf-typegen": "wrangler types",
+    "tail": "wrangler tail"
   },
   "devDependencies": {
     "@cloudflare/vitest-pool-workers": "^0.1.0",
     "@cloudflare/workers-types": "^4.20240512.0",
+    "@line/bot-sdk": "^9.2.2",
     "typescript": "^5.0.4",
     "vitest": "1.3.0",
     "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "hono": "^4.3.9"
   }
 }
